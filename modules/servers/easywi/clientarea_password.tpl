@@ -4,7 +4,7 @@
     <input type="hidden" name="a" value="pwreset" />
     <div class="form-group text-left">
         <div class="col-sm-6">
-            <label class="control-label" for="inputPassword">Password</label>
+            <label class="control-label" for="inputPassword">{$vars['_lang']['pw'];}</label>
         </div>
         <div class="col-sm-6">
             <input type="password" id="inputPassword" name="password" class="form-control">
@@ -12,7 +12,7 @@
     </div>
     <div class="form-group text-left">
         <div class="col-sm-6">
-            <label class="control-label" for="inputPasswordRepeat">Password repeat</label>
+            <label class="control-label" for="inputPasswordRepeat">{$vars['_lang']['pwr'];}</label>
         </div>
         <div class="col-sm-6">
             <input type="password" id="inputPasswordRepeat" name="passwordRepeat" class="form-control">
