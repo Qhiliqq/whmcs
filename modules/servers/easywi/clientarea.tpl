@@ -1,8 +1,8 @@
 <div id="tabsEasyWi">
     <ul class="nav nav-tabs" data-tabs="tabs">
-        <li id="tab1nav" class="active"><a href="#tab-easy-wi-1" data-toggle="tab">Information</a></li>
-        <li id="tab2nav"><a href="#tab-easy-wi-2" data-toggle="tab">Easy-Wi Login</a></li>
-        <li id="tab3nav"><a href="#tab-easy-wi-3" data-toggle="tab">Reset Login</a></li>
+        <li id="tab1nav" class="active"><a href="#tab-easy-wi-1" data-toggle="tab">{$vars['_lang']['information'];}</a></li>
+        <li id="tab2nav"><a href="#tab-easy-wi-2" data-toggle="tab">{$vars['_lang']['login'];}</a></li>
+        <li id="tab3nav"><a href="#tab-easy-wi-3" data-toggle="tab">{$vars['_lang']['rlogin'];}</a></li>
     </ul>
 </div>
 <br>
@@ -19,13 +19,13 @@
 <div id="tab-easy-wi-2" class="tab-content-easy-wi">
     <div class="form-group text-left">
         <div class="col-sm-7">
-            <label class="control-label" for="customfield{$customfield.id}">Easy-Wi Login URL</label>
+            <label class="control-label" for="customfield{$customfield.id}">{$vars['_lang']['loginurl'];}</label>
         </div>
         <div>
             <a href="{$EasyWiLink}" target="_blank">{$EasyWiLink}</a>
         </div>
         <div class="col-sm-6">
-            <label class="control-label" for="customfield{$customfield.id}">Login name</label>
+            <label class="control-label" for="customfield{$customfield.id}">{$vars['_lang']['user'];}</label>
         </div>
         {$vars.clientsdetails.email}
     </div>
@@ -37,7 +37,7 @@
         <input type="hidden" name="a" value="pwreset" />
         <div class="form-group text-left">
             <div class="col-sm-6">
-                <label class="control-label" for="inputPassword">Password</label>
+                <label class="control-label" for="inputPassword">{$vars['_lang']['pw'];}</label>
             </div>
             <div class="col-sm-6">
                 <input type="password" id="inputPassword" name="password" class="form-control">
@@ -45,7 +45,7 @@
         </div>
         <div class="form-group text-left">
             <div class="col-sm-6">
-                <label class="control-label" for="inputPasswordRepeat">Password repeat</label>
+                <label class="control-label" for="inputPasswordRepeat">{$vars['_lang']['pwr'];}</label>
             </div>
             <div class="col-sm-6">
                 <input type="password" id="inputPasswordRepeat" name="passwordRepeat" class="form-control">
