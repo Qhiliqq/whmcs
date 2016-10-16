@@ -73,7 +73,6 @@ function easywi_config() {
         "version" => $version,
         "author" => "Ulrich Block",
         "language" => "english",
-        "premium" => true,
     );
 
     $configarray["fields"]["license"] = array ("FriendlyName" => "License key", "Type" => "text", "Size" => "30", "Description" => "", "Default" => "");
